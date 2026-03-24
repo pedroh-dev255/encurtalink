@@ -28,6 +28,9 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       data-arp=""
     >
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-3436512890891847"></meta>
+      </head>
       <body className="min-h-full flex flex-col" cz-shortcut-listen="true">{children}</body>
     </html>
   );
