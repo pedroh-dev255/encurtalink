@@ -1,11 +1,11 @@
 export default async function managerPage() {
     
   return (
-    <div className="flex flex-col min-h-screen bg-gray-100">
-      <nav className="flex justify-between bg-white shadow-md p-4">
-        <h1 className="text-xl font-bold">EncurtaLink - Gerenciador</h1>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded">
-          Voltar
+    <div className="flex flex-col min-h-screen py-2 bg-gray-100">
+      <nav className="flex flex-row justify-between bg-white shadow-md p-4">
+        <h1 className="text-2xl text-gray-800 font-bold">EncurtaLink</h1>
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Acessar
         </button>
       </nav>
     </div>
