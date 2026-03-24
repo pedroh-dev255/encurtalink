@@ -30,6 +30,7 @@ export default function RootLayout({
     >
       <head>
         <meta name="google-adsense-account" content="ca-pub-3436512890891847"></meta>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3436512890891847" crossOrigin="anonymous"></script>
       </head>
       <body className="min-h-full flex flex-col" cz-shortcut-listen="true">{children}</body>
     </html>

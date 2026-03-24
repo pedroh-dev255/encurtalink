@@ -18,7 +18,7 @@ export default function Home() {
         </p>
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
           <a
-            href="#"
+            href="/manager"
             className="w-96 mt-6 sm:w-full flex flex-col items-center justify-center rounded-xl border text-gray-700 hover:text-gray-900 focus:text-gray-900"
           >
             <h3 className="text-2xl font-bold">Encurtar Link &rarr;</h3>
@@ -27,7 +27,7 @@ export default function Home() {
             </p>
           </a>
           <a
-            href="#"
+            href="/manager/mylinks"
             className="w-96 mt-6 sm:w-full flex flex-col items-center justify-center rounded-xl border text-gray-700 hover:text-gray-900 focus:text-gray-900"
           >
             <h3 className="text-2xl font-bold">Gerenciar Links &rarr;</h3>
