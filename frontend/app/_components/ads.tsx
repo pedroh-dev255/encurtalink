@@ -6,12 +6,14 @@ import Script from "next/script";
 export default function Ads() {
   useEffect(() => {
     try {
-      // inicializa o anúncio
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
+      (window as any).adsbygoogle =
+        (window as any).adsbygoogle || [];
+      (window as any).adsbygoogle.push({});
     } catch (e) {
       console.error("Erro ao carregar anúncio", e);
     }
   }, []);
+
 
   return (
     <>
