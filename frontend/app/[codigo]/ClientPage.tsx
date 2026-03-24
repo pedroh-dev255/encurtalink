@@ -29,7 +29,7 @@ export default function ClientPage({ codigo }: { codigo: string }) {
       try {
        // const res = await fetch(`/api/link/${codigo}`);
        // const data = await res.json();
-        setUrl("google.com");
+        setUrl("www.google.com");
       } catch (err) {
         console.error("Erro ao buscar link");
       } finally {
@@ -71,7 +71,7 @@ export default function ClientPage({ codigo }: { codigo: string }) {
         </button>
       </nav>
 
-      <main className="flex flex-col items-center justify-center flex-1">
+      <main className="flex items-center justify-center flex-1">
         <div className="mt-10 w-full max-w-xl">
             <Ads />
         </div>
